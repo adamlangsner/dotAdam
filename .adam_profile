@@ -1,0 +1,12 @@
+# aliases
+alias c='clear'
+alias ll='ls -la'
+alias cl='c;ll'
+alias h='vim /etc/hosts'
+alias gs='git status'
+alias gd='git diff'
+alias gds='git diff | subl'
+alias gc='git commit -v'
+alias gac='git commit -a -v'
+alias gl='git pull'
+alias gh='git push'
