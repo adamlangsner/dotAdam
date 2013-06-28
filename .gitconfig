@@ -1,0 +1,30 @@
+[user]
+	name = Adam Langsner
+	email = adamlangsner@gmail.com
+
+[github]
+    user = adamlangsner
+
+[credential]
+	helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+	excludesfile = /opt/boxen/config/git/gitignore
+	quotepath = false
+    whitespace = cr-at-eol
+	editor = /usr/bin/subl -w
+
+[push]
+	default = upstream
+
+[alias]
+    co = checkout
+    r = !git l -59
+    ra = !git r --all
+    l = "!source ~/.githelpers && pretty_git_log"
+    amend = commit --amend
+    aa = add --all
+    st = status
+
+[color]
+	ui = true
