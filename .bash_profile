@@ -1,3 +1,5 @@
+source ~/.bashrc
+
 # aliases
 alias c='clear'
 alias ll='ls -la'
