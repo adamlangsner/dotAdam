@@ -12,7 +12,7 @@
 	excludesfile = /opt/boxen/config/git/gitignore
 	quotepath = false
     whitespace = cr-at-eol
-	editor = /usr/bin/subl -w
+	editor = /opt/boxen/bin/subl -w
 
 [push]
 	default = upstream
@@ -28,3 +28,6 @@
 
 [color]
 	ui = true
+
+[hub]
+protocol = https

@@ -1,10 +1,14 @@
 [[ -s "/opt/boxen/env.sh" ]] && source "/opt/boxen/env.sh"
 
+
+j() {
+	cd `autojump $1`
+}
+
 brewery=`brew --prefix`
 [[ -s $brewery/etc/autojump.sh ]] && . $brewery/etc/autojump.sh
 [[ -s $brewery/etc/bash_completion ]] && . $brewery/etc/bash_completion
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-alias j='autojump'
 
 export CLICOLOR=1
 export TERM=xterm-color
