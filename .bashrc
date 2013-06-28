@@ -61,6 +61,6 @@ alias go='gac && gpr && gh'
 alias x='exit'
 alias sag='sudo apachectl graceful'
 alias cdate='date '\''+%Y%m%d%H%M%S'\'''
-function z() { 
+function z() {
    tar -czvf $1.tgz $1;
 }
